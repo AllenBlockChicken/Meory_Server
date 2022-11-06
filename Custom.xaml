@@ -13,7 +13,7 @@
         <TextBlock Margin="0,0,0,4"
             Text="------------------------------------------------------------------------" />
         <local:MyButton Margin="0,8,0,0" Width="400" Height="35"
-                   Text="点击更新版本（文件保存到“PCL”文件夹中，并且选择“替换文件”）" EventType="下载文件" EventData="https://github.com/AllenBlockChicken/Meory_Server/blob/main/Custom.xaml" />
+                   Text="点击更新版本（文件保存到“PCL”文件夹中，并且选择“替换文件”）" EventType="下载文件" EventData="https://www.createmiracle3330.top/meory/Custom.xaml" />
         <TextBlock Margin="0,4,0,0"
             Text="请对照以下Mod列表在PCL2的Mod下载功能中下载mod（每一次更新版本之后都要检查有没有遗漏、多余或者错误的mod）"/>
         <TextBlock Margin="0,16,0,0"
