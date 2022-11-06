@@ -1,0 +1,71 @@
+﻿<local:MyCard Title="Meory Client">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+            Text="Version 5.2"/>
+
+        <TextBlock Margin="0,0,0,4"
+            Text="最近更新：2022-11-6"/>
+
+        <TextBlock Margin="0,0,0,4"
+            Text="访问 https://www.createmiracle3330.top/meory 以了解更多内容" />
+        <local:MyButton Margin="0,0,0,0" Width="250" Height="35"
+            Text="点击访问" EventType="打开网页" EventData="https://www.createmiracle3330.top/meory " />
+        <TextBlock Margin="0,0,0,4"
+            Text="------------------------------------------------------------------------" />
+        <local:MyButton Margin="0,8,0,0" Width="400" Height="35"
+                   Text="点击更新版本（文件保存到“PCL”文件夹中，并且选择“替换文件”）" EventType="下载文件" EventData="https://www.createmiracle3330.top/meory/Custom.xaml" />
+        <TextBlock Margin="0,4,0,0"
+            Text="请对照以下Mod列表在PCL2的Mod下载功能中下载mod（每一次更新版本之后都要检查有没有遗漏、多余或者错误的mod）"/>
+        <TextBlock Margin="0,16,0,0"
+            Text="等价交换"/>
+        <TextBlock Margin="0,16,0,0"
+            Text="匠魂"/>
+        <TextBlock Margin="0,16,0,0"
+            Text="地幔"/>
+        <TextBlock Margin="0,16,0,0"
+            Text="匠魂盔甲"/>
+        <TextBlock Margin="0,16,0,0"
+            Text="coroutil（僵尸意识前置）"/>
+        <TextBlock Margin="0,16,0,0"
+            Text="僵尸意识"/>
+        <TextBlock Margin="0,16,0,0"
+            Text="JEI物品管理器"/>
+
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="更新日志">
+    <StackPanel Margin="25,40,23,15">
+
+        <TextBlock Margin="0,0,0,4"
+            Text="Version 5.0
+            MC版本：1.12.2  玩法：Mod服  Mod：等价交换 匠魂 匠魂盔甲 僵尸意识 以及更多"/>
+        <TextBlock Margin="16,2,2,6"
+            Text="Version 5.1
+            更新内容：增加血月mod"/>
+        <TextBlock Margin="16,2,2,6"
+            Text="Version 5.2
+            更新内容：删除血月mod"/>
+            
+
+        <TextBlock Margin="0,0,0,4"
+            Text="Version 4.0
+            MC版本：1.19
+            玩法 纯生存
+            Mod 无"/>
+
+        <TextBlock Margin="0,0,0,4"
+            Text="Version 3.0
+            MC版本：1.12.2  玩法：Mod服  Mod：等价交换 暮色森林 拔刀剑 以及更多"/>
+
+        <TextBlock Margin="0,0,0,4"
+            Text="Version 2.0
+            MC版本：1.19  玩法：空岛生存  Mod：无"/>
+        <TextBlock Margin="0,0,0,4"
+            Text="Version 1.0
+            MC版本：1.19  玩法：纯生存  Mod：无"/>
+
+    </StackPanel>
+</local:MyCard>
+
+
